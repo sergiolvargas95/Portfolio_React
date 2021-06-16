@@ -1,0 +1,80 @@
+$Firt-color: #ff005a;
+$White: #f1f6f9;
+$Dark-blue: #14274e;
+$Blue: #394867;
+$Grey: #9ba4b4;
+$Light-grey:#dadce0;
+$Link-color: #509ee3;
+$White-alpha-color: rgba(255, 255, 255, 0.5);
+$Black-alpha-color: rgba(0, 0, 0, 0.5);
+$Firt-alpha-color: rgba(255, 0, 90, 0.75);
+$Black: #000;
+$Text-color: #9ba4b4;
+$Font: "Raleway", "sans-serif";
+$Max-width: 1200px;
+$Header-height: 4rem;
+
+%box-shadow-1 { box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25) }
+
+%btn {
+    border-radius: .5rem;
+    padding: 1rem;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: $White;
+    background-color: $Firt-color;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $Max-width;
+}
+
+.principal-title h1{
+    font-size: 2.7rem;
+}
+
+.principal-title h5{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.profile-photo {
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.none {
+    display: none;
+}
+
+.section {
+    padding: 2rem 1rem;
+}
+
+.section-title {
+    border-top: thin solid $Grey;
+    border-bottom: thin solid $Grey;
+    margin: 2rem auto;
+    padding: 0.5rem 1rem;
+    width: 250px;
+    text-align: center;
+    color: $Grey;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}

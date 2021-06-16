@@ -1,0 +1,26 @@
+@import '../Global.scss';
+
+.Hero-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &-opacity {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $Black-alpha-color;
+        text-align: center;
+    }
+    &-title {
+        font-size: 12vw;
+        color:$White;
+        padding-bottom: 30px;
+    }
+    .btn {
+        @extend %btn;
+    }
+}
+
+
