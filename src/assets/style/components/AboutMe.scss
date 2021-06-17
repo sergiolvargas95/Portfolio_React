@@ -1,0 +1,44 @@
+@import '../Global.scss';
+
+.about {
+    min-height: auto;
+    p {
+        font-size: 1.3rem;
+        margin-bottom: 35px;
+    }
+}
+
+.section {
+    @extend %section;
+}
+
+.container {
+    @extend %container;
+}
+
+.information {
+    @extend %flex;
+}
+
+.text-center {
+    @extend %text-center;
+}
+
+.principal-title {
+    @extend %principal-title;
+    h5{
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+}
+
+.btn {
+    @extend %btn;
+}
+
+.profile-photo {
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+

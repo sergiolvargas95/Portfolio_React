@@ -1,10 +1,10 @@
 import React from 'react';
 import '../assets/style/components/Hero.scss';
-import imagen from '../assets/static/hero-image-home.jpg';
+import BackgroundHero from '../assets/static/hero-image-home.jpg';
 
 const Hero = () => (
     <div>
-        <article className="Hero-image" style={{backgroundImage: `url(${imagen})`, backgroundAttachment:'fixed'}}>
+        <article className="Hero-image" style={{backgroundImage: `url(${BackgroundHero})`, backgroundAttachment:'fixed'}}>
             <aside className="Hero-image-opacity" >
                 <div className="Hero-image-content" >
                     <h2 className="Hero-image-title" >

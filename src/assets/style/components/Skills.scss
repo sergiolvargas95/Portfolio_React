@@ -1,0 +1,39 @@
+@import '../Global.scss';
+
+.skills {
+    width: 100%;
+    height: auto;
+    background-color: $Grey;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+        text-align: center;
+        color: var(--dark-blue);
+        font-size: 2.5rem;
+    }
+    &-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        img {
+            width: 180px;
+            height: 180px;
+            margin: 20px ;
+        }
+        p {
+            text-align: center;
+            font-size: 1.8rem;
+            margin: 0;
+            font-weight: bold;
+            color: $Dark-blue;
+        }
+    }
+}
+
+.section {
+    @extend %section;
+}
