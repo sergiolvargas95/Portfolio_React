@@ -1,0 +1,31 @@
+.portfolio-modal {
+    padding: 1rem;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-grey);
+    border-radius: 15px;
+}
+
+.portfolio-modal h3 {
+    border-bottom: medium solid var(--blue);
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    color:var(--black);
+}
+
+.portfolio-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.redirection-icon, .github-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.redirection-icon:hover, .github-icon:hover{
+    opacity: 0.5;
+}

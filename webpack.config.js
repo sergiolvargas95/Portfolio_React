@@ -47,6 +47,15 @@ module.exports = {
                     },
                 ],
             },
+            {
+                test:/\.svg$/,
+                issuer: /\.js%/,
+                use:[
+                    {
+                        loader: 'svg-react-loader',
+                    }
+                ]
+            }
         ],
     },
     plugins:[
